@@ -120,6 +120,8 @@ function App() {
     console.log(d);
     if (d?.length < 1) {
       setUnav(true);
+    } else {
+      setUnav(false);
     }
     setLocation(d[0]?.display_name);
     getData(d[0]?.lat, d[0]?.lon);
