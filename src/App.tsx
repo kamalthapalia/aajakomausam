@@ -332,7 +332,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer className="text-center font-light text-xl bg-blue-500 py-2 bg-opacity-80">
+      <footer className="text-center font-light text-xl bg-blue-500 py-2 ">
         <p>Created without 💙 by Chin Chin</p>
       </footer>
     </div>
