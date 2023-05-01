@@ -147,6 +147,8 @@ function App() {
   }
 
   useEffect(() => {
+    document.title = "GM Weather";
+
     navigator.geolocation.getCurrentPosition(
       (position) => {
         getData(position.coords.latitude, position.coords.longitude);
