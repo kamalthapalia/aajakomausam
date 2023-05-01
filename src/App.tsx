@@ -211,13 +211,13 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen image bg-opacity-80">
       <nav>
-        <p className=" font-extralight text-4xl uppercase p-6 mt-4 mb-2 mx-3 flex justify-between">
-          <div> आजको मौसम</div>
-          <div className=" text-right"> Aajako Mausam</div>
+        <p className=" font-extralight text-4xl uppercase P-3 md:p-6 mt-2 md:mt-4 mb-2 mx-3 flex justify-start md:justify-between">
+          <div className=" hidden md:flex"> आजको मौसम</div>
+          <div className=" md:text-right"> Aajako Mausam</div>
         </p>
       </nav>
       <div className="container mx-auto flex-grow">
-        <div className=" flex justify-center mb-5">
+        <div className=" flex justify-center mb-2 md:mb-5">
           <div className=" flex w-[90%] md:w-5/ mx-auto bg-blue-200 bg-opacity-50 rounded-3xl border">
             <input
               className="w-full outline-none px-5 bg-white placeholder-gray-900 bg-opacity-0 text-black text-lg tracking-wider font-light py-1 rounded-3xl "
@@ -310,7 +310,7 @@ function App() {
             </div>
           )}
 
-          <div className="text-center mt-9 mb-5 capitalize font-light text-2xl">
+          <div className="text-center mt-9 mb-3 md:mb-5 capitalize font-light text-2xl">
             Forecast
           </div>
 
