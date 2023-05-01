@@ -213,7 +213,7 @@ function App() {
       <nav>
         <p className=" font-extralight text-4xl uppercase p-6 mt-4 mb-2 mx-3 flex justify-between">
           <div> आजको मौसम</div>
-          <div> Aajako Mausam</div>
+          <div className=" text-right"> Aajako Mausam</div>
         </p>
       </nav>
       <div className="container mx-auto flex-grow">
